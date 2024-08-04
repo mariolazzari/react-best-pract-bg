@@ -1,10 +1,11 @@
-import { TodoForm } from "@/components/TodoForm";
-import Image from "next/image";
+import { Todos } from "@/components/Todos";
 
-export default function Home() {
+function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <TodoForm />
+      <Todos />
     </main>
   );
 }
+
+export default Home;
